@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Basic -->
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+        <!-- Mobile Metas -->
+        <meta
+            name="viewport"
+            content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+        />
+
+        <!-- Site Metas -->
+        <title>CodeMaster</title>
+        <meta
+            name="keywords"
+            content="веб-разработка, создание сайтов, фронтенд, бэкенд, веб-дизайн, программирование, оптимизация сайтов, разработка приложений, адаптивный дизайн, SEO для сайтов"
+        />
+        <meta
+            name="description"
+            content="Компания SolucionesPro Business предлагает профессиональные услуги по веб-разработке: создание сайтов, веб-приложений, адаптивный дизайн и оптимизация для поисковых систем. Наши специалисты: Алексей Смирнов, Ирина Кузнецова, Дмитрий Волков и Марина Петрова."
+        />
+        <meta
+            name="author"
+            content="Алексей Смирнов, Ирина Кузнецова, Дмитрий Волков, Марина Петрова"
+        />
+
+        <!-- Site Icons -->
+        <link
+            rel="shortcut icon"
+            href="images/favicon.ico"
+            type="image/x-icon"
+        />
+        <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <!-- Site CSS -->
+        <link rel="stylesheet" href="style.css" />
+        <!-- Responsive CSS -->
+        <link rel="stylesheet" href="css/responsive.css" />
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="css/custom.css" />
+
+        <!-- Modernizer for Portfolio -->
+        <script src="js/modernizer.js"></script>
+    </head>
+    <body>
+        <!-- LOADER -->
+        <div id="preloader">
+            <div class="loader">
+                <div class="loader__bar"></div>
+                <div class="loader__bar"></div>
+                <div class="loader__bar"></div>
+                <div class="loader__bar"></div>
+                <div class="loader__bar"></div>
+                <div class="loader__ball"></div>
+            </div>
+        </div>
+        <!-- end loader -->
+        <!-- END LOADER -->
+
+        <header class="header header_style_01">
+            <nav class="megamenu navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="index.html">
+                            <h2 style="font-weight: bold; padding-bottom: 0px">
+                                CodeMaster
+                            </h2>
+                        </a>
+                        <button
+                            class="navbar-toggler collapsed"
+                            type="button"
+                            data-toggle="collapse"
+                            data-target="#navbar"
+                            aria-controls="navbar"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation"
+                        >
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbar">
+                        <ul class="navbar-nav ml-auto">
+                            <li>
+                                <a href="index.html">Главная</a>
+                            </li>
+                            <li><a href="about-us.html">О нас</a></li>
+                            <li><a href="services.html">Услуги</a></li>
+                            <li><a href="testimonials.html">Отзывы</a></li>
+                            <li>
+                                <a class="active" href="contact.html"
+                                    >Контакты</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <div class="banner-area banner-bg-1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="banner">
+                            <h2><span>Контакты</span></h2>
+                            <ul class="page-title-link">
+                                <li><a href="index.html">Главная</a></li>
+                                <li><a href="#">Контакты</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="contact" class="section wb">
+            <div class="container">
+                <div class="section-title text-center">
+                    <h3>Свяжитесь с нами</h3>
+                    <p class="lead">
+                        Мы предоставляем профессиональную поддержку по вопросам
+                        веб-разработки. Наша команда поможет вам с разработкой
+                        сайтов, веб-приложений, интеграцией функций и выбором
+                        оптимальных решений для вашего проекта. Свяжитесь с
+                        нами, чтобы обсудить детали и получить консультацию.
+                    </p>
+                </div>
+                <!-- end title -->
+
+                <div class="row">
+                    <div class="col-md-8 offset-md-2">
+                        <div class="contact_form">
+                            <div id="message"></div>
+                            <form class="row" action="thanks.html" method="get">
+                                <fieldset class="row">
+                                    <div class="col-lg-6 col-md-6 col-sm-6">
+                                        <input
+                                            type="text"
+                                            name="first_name"
+                                            id="first_name"
+                                            class="form-control"
+                                            placeholder="Имя"
+                                            required
+                                        />
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6">
+                                        <input
+                                            type="text"
+                                            name="last_name"
+                                            id="last_name"
+                                            class="form-control"
+                                            placeholder="Фамилия"
+                                            required
+                                        />
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6">
+                                        <input
+                                            type="email"
+                                            name="email"
+                                            id="email"
+                                            class="form-control"
+                                            placeholder="Ваш Email"
+                                            required
+                                        />
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6">
+                                        <input
+                                            type="text"
+                                            name="phone"
+                                            id="phone"
+                                            class="form-control"
+                                            placeholder="Ваш телефон"
+                                            required
+                                        />
+                                    </div>
+                                    <div
+                                        class="col-lg-12 col-md-12 col-sm-12 col-xs-12"
+                                    >
+                                        <textarea
+                                            class="form-control"
+                                            name="comments"
+                                            id="comments"
+                                            rows="6"
+                                            placeholder="Опишите, как мы можем помочь..."
+                                            required
+                                        ></textarea>
+                                    </div>
+                                    <div class="text-center cont-btn">
+                                        <button
+                                            type="submit"
+                                            value="SEND"
+                                            id="submit"
+                                            class="btn11"
+                                        >
+                                            <span>Отправить</span>
+                                        </button>
+                                    </div>
+                                </fieldset>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- end col -->
+                </div>
+                <!-- end row -->
+
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6151.655201801765!2d76.91764723471026!3d43.24102513258296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3883691922f1aee9%3A0x999088834d729a88!2sWebWellness!5e0!3m2!1suk!2sua!4v1756963842535!5m2!1suk!2sua"
+                    width="100%"
+                    height="450"
+                    style="border: 0"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+            </div>
+            <!-- end container -->
+        </div>
+        <!-- end section -->
+
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="widget clearfix">
+                            <div class="widget-title">
+                                <h2
+                                    style="
+                                        color: #fff;
+                                        font-weight: bold;
+                                        padding-bottom: 0px;
+                                    "
+                                >
+                                    CodeMaster
+                                </h2>
+                            </div>
+                            <p>
+                                Мы специализируемся на профессиональной
+                                веб-разработке. В этом разделе вы найдете
+                                контактные данные, быстрые ссылки на ключевые
+                                страницы и полезную информацию о наших услугах
+                                по созданию сайтов и веб-приложений. Наша
+                                команда: Алексей Смирнов, Ирина Кузнецова,
+                                Дмитрий Волков и Марина Петрова.
+                            </p>
+                        </div>
+                        <!-- end clearfix -->
+                    </div>
+                    <!-- end col -->
+
+                    <div class="col-md-6 col-lg-4">
+                        <div class="widget clearfix">
+                            <div class="widget-title">
+                                <h3>Полезные ссылки</h3>
+                            </div>
+
+                            <ul class="footer-links hov">
+                                <li>
+                                    <a href="index.html"
+                                        >Главная
+                                        <span
+                                            class="icon icon-arrow-right2"
+                                        ></span
+                                    ></a>
+                                </li>
+                                <li>
+                                    <a href="terms-of-use.html"
+                                        >Условия использования
+                                        <span
+                                            class="icon icon-arrow-right2"
+                                        ></span
+                                    ></a>
+                                </li>
+                                <li>
+                                    <a href="privacy-policy.html"
+                                        >Политика конфиденциальности
+                                        <span
+                                            class="icon icon-arrow-right2"
+                                        ></span
+                                    ></a>
+                                </li>
+                                <li>
+                                    <a href="cookie-policy.html"
+                                        >Политика Cookie
+                                        <span
+                                            class="icon icon-arrow-right2"
+                                        ></span
+                                    ></a>
+                                </li>
+                            </ul>
+                            <!-- end links -->
+                        </div>
+                        <!-- end clearfix -->
+                    </div>
+                    <!-- end col -->
+
+                    <div class="col-md-6 col-lg-4">
+                        <div class="widget footer-contact clearfix">
+                            <div class="widget-title">
+                                <h3>Контакты</h3>
+                            </div>
+
+                            <ul>
+                                <li>
+                                    ул. Муканова 241, ЖК «Театральный» 1 блок,
+                                    Алматы 050008, Казахстан
+                                </li>
+                                <li>Телефон: <a href="#">+77073084664</a></li>
+                                <li>
+                                    Email: <a href="#">code_baster@gmail.com</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- end row -->
+            </div>
+            <!-- end container -->
+        </footer>
+        <!-- end footer -->
+
+        <a href="#" id="scroll-to-top" class="dmtop global-radius"
+            ><i class="fa fa-angle-up"></i
+        ></a>
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">
+                    Согласие на использование Cookie
+                </h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    Этот сайт использует cookie-файлы для улучшения
+                    функциональности и удобства работы.
+                    <a href="cookie-policy.html">Подробнее...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">Принять</button>
+                <button class="cookie-button" id="declineBtn">Отклонить</button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <!-- ALL JS FILES -->
+        <script src="js/all.js"></script>
+        <!-- ALL PLUGINS -->
+        <script src="js/custom.js"></script>
+        <script src="js/portfolio.js"></script>
+        <script src="js/hoverdir.js"></script>
+        <script src="js/cookiebanner.js"></script>
+    </body>
+</html>
